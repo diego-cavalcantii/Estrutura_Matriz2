@@ -11,7 +11,7 @@ for lin in range(8):
         linha.append(int(input("Digite um elemento da Matriz : ")))
     matrizA.append(linha)
 
-for lin in range(3):
+for lin in range(len(matrizA)):
     listaB.append(sum(matrizA[lin]))
 
 print("\n=== Matriz ===")
