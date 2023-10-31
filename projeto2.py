@@ -15,10 +15,10 @@ for lin in range(10):
             num = listaA[lin] + 5
             lista.append(num)
         if(col==1):
-            num = listaA[lin] ** 3
+            num = listaA[lin] * 3
             lista.append(num)
         if(col==2):
-            num = listaA[lin] ** 4
+            num = listaA[lin] ** 2
             lista.append(num)
     matrizC.append(lista)
 
